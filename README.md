@@ -1,4 +1,4 @@
 # Django-Portfolio
 
-      A portfolio of mine developed using Django
+  A portfolio of mine developed using Django
 
