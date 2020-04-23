@@ -10,7 +10,6 @@ attrs==18.2.0
 Babel==2.6.0
 backcall==0.1.0
 beautifulsoup4==4.7.1
-bleach==3.1.0
 blinker==1.4
 bokeh==1.2.0
 certifi==2018.8.24
@@ -47,12 +46,8 @@ oauthlib==2.1.0
 packaging==19.0
 
 protobuf==3.8.0
-psutil==5.5.1
 
 
-
-
-Q
 requests==2.21.0
 requests-unixsocket==0.1.5
 
@@ -71,5 +66,4 @@ testpath==0.4.2
 
 whitenoise==2.0.6
 
-urllib3==1.24.1
 
