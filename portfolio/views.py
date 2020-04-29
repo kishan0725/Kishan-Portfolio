@@ -37,12 +37,12 @@ def index(request):
     dl.liveDemo = ''
     dl.codeLink = 'https://github.com/kishan0725/Breast-Cancer-Wisconsin-Diagnostic'
 
-    bmi = Projects()
-    bmi.img = 'bmix.png'
-    bmi.name = 'BMI PREDICTION'
-    bmi.desc = "Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women and find out if you are healthy."
-    bmi.liveDemo = 'https://bmi-prediction.herokuapp.com/'
-    bmi.codeLink = 'https://github.com/kishan0725/BMI_Prediction'
+    covid = Projects()
+    covid.img = 'covid.png'
+    covid.name = 'COVID-19 Tracker'
+    covid.desc = "A simple web app to track the infected, recovered and deaths caused by Coronavirus across all over the world using ReactJS, ChartJS and Material UI."
+    covid.liveDemo = 'https://covid19-tracker-kishan.herokuapp.com/'
+    covid.codeLink = 'https://github.com/kishan0725/COVID19-Tracker'
 
     ga = Projects()
     ga.img = 'education.png'
@@ -174,7 +174,7 @@ def index(request):
     
 
 
-    projects = [mrs,sf,hms,dl,bmi,ga,bcp,ad,gsp,psc,food,phn]
+    projects = [mrs,sf,hms,dl,covid,ga,bcp,ad,gsp,psc,food,phn]
     portfolio = [css,tip,lt,ml,s2,sql,cpl,md]
     blogs = [time,rel,dtr,psy,gl,itm]
     return render(request, 'index.html',{'myself':myself,'projects':projects,'portfolio':portfolio,'blogs':blogs})
