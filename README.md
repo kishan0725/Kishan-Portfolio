@@ -1,4 +1,4 @@
-# Django-Portfolio
+# Kishan-Portfolio
 
   A portfolio of mine developed using Django
   
