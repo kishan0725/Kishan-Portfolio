@@ -18,7 +18,7 @@ Click==7.0
 cloudpickle==0.8.0
 colorcet==2.0.2
 
-Django==3.0.3
+Django==3.0.7
 
 google==2.0.2
 google-apputils==0.4.2
